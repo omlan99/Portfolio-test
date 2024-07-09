@@ -6,7 +6,169 @@
 }
 
 /* common css */
+a{
+    text-decoration: none;
+}
 .container{
     max-width: 1440px;
     margin: 0 auto;
+}
+.azeret-mono-font{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.text-center{
+    text-align: center;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.section-details{
+    padding-bottom: 48px;
+}
+/* header styles */
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../assets/Hero-bg.png);
+    padding-bottom: 68px;
+    margin-bottom: 50px;
+}
+.hero{
+    width: 998px;
+}
+.hero .hero-title h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.hero .hero-title p{
+    margin-bottom: 32px;
+}
+.hero a{
+    display: block;
+    padding: 21px 24px;
+    background-color: #0d1321;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+.hero button{
+    border: none;
+}
+/* main style */
+main{
+    padding-top: 80px ;
+    padding-bottom: 80px;
+}
+/* purpose style */
+/* dreams section style */
+.dreams{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 32px;
+
+}
+.dreams .dream{
+    width: 477px;
+}
+.dream h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.dream p{
+    margin-bottom:32px;
+}
+.dream a{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    color: #0d1321;
+    border: 1px solid #0d1321;
+}
+/* inspiration section style */ 
+.inspiration{
+    margin-top: 88px;
+    
+}
+.inspiration iframe{
+    display: flex;
+    margin: 0 auto;
+}
+/* target section style */
+.target{
+    margin-top: 151px;
+}
+.subjects{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.target .subjects .subject{
+    width: 364px;
+    padding: 40px;
+}
+.target .subjects .subject img{
+    margin-bottom: 24px;
+}
+.target .subjects .subject h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.target .subjects .subject p{
+    margin-bottom: 24px;
+}
+.target .subjects .subject a{
+    font-weight: 600;
+    color: #0d1321;
+    text-decoration: underline;
+}
+.support{
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: #ffffff;
+    padding: 64px 48px;
+    margin-top: 50px;
+}
+.support .feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.support .feedback input{
+    width: 548px;
+    border-radius: 8px;
+    padding:20px 0 20px 20px;
+}
+.support .feedback input::placeholder{
+    font-family: "Azeret Mono", monospace;
+
+}
+.support .feedback button{
+    width: 120px;
+    border-radius: 8px;
+    padding: 16px 20px;
+     font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+footer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
 }
